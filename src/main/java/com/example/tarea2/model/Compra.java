@@ -20,13 +20,18 @@ public class Compra {
         this.fecha = fecha;
     }
 
-    public Long getId() { return id; }
+    public Long getId() {
+        return id;
+    }
 
-    public String getProducto() { return producto; }
+    public String getProducto() {
+        return producto;
+    }
 
-    public double getMonto() { return monto; }
+    public double getMonto() {
+        return monto;
+    }
 
-    public String getUnidad() { return unidad; }
-
-    public String getFecha() { return fecha; }
-}
+    public String getUnidad() {
+        return unidad;
+    }
