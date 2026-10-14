@@ -35,8 +35,3 @@ public class Compra {
     public String getUnidad() {
         return unidad;
     }
-
-    public String getFecha() {
-        return fecha;
-    }
-}
