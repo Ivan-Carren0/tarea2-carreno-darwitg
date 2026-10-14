@@ -8,7 +8,8 @@ public class Compra {
     private String unidad;
     private String fecha;
 
-    public Compra() {}
+    public Compra() {
+    }
 
     public Compra(Long id, String producto, double monto,
                   String unidad, String fecha) {
@@ -28,3 +29,4 @@ public class Compra {
     public String getUnidad() { return unidad; }
 
     public String getFecha() { return fecha; }
+}
