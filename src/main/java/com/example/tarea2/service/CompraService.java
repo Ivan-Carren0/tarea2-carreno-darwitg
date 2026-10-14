@@ -115,7 +115,7 @@ public class CompraService {
         );
     }
 
-    private List<Compra> leerCompras() {
+    public List<Compra> leerCompras() {
 
         try {
             List<String> lineas = Files.readAllLines(
@@ -159,7 +159,7 @@ public class CompraService {
         }
     }
 
-    private double consultarValor(String indicador, String fecha) {
+    public double consultarValor(String indicador, String fecha) {
 
         String url = "https://mindicador.cl/api/"
                 + indicador + "/" + fecha;
